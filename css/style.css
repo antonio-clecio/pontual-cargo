@@ -7,6 +7,8 @@
     --pontual-primary: #353299;
     --pontual-secondary: #de332b;
     --pontual-insta: #0b0d48;
+    --pontual-letra-cargo: #1c1862;
+    --pontual-radape-site: #242980;
 }
 
 
@@ -565,5 +567,73 @@ h6,
 
 #cobertura {
     padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    padding-bottom: 150px !important;
+}
+
+/* VISIT */
+
+.contact-visit-container {
+    /* padding: 96px 72px; */
+    padding-bottom: 96px;
+}
+
+.contact-visit-list {
+    margin-top: 48px;
+    /* display: flex; */
+}
+
+.visit {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.visit-card {
+    width: 350px;
+    border: 1px solid #ced4da;
+}
+
+.visit-card iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.visit-card__text {
+    padding: 20px;
+}
+
+.visit-card__text p {
+    font-size: 14px;
+}
+
+.visit-card__text p {
+    margin-left: 30px;    
+}
+
+.visit-card__text i {
+    margin-left: -30px;
+    color: var(--primary);
+}
+
+.container-social {
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-social .btn {
+    font-size: 25px;
+}
+
+.container-social .btn.btn-social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 50px;
 }
